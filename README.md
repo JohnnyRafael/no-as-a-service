@@ -86,3 +86,14 @@ The original project was created by [hotheadhacker](https://github.com/hotheadha
 ## 📄 License
 
 MIT — do whatever, just don’t say yes when you should say no.
+
+___
+
+## GA Tracking 
+
+If you would like to clone the project and build your own website, please make sure to remove/replace the GA tracking from the HTML page before deployment
+
+```
+<!-- Google tag (gtag.js) -->
+```
+
