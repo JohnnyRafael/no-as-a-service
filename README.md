@@ -16,7 +16,7 @@ Built for humans, excuses, and humor.
 
 **Base URL**
 ```
-https://naas.isalman.dev/no
+https://noreason.me/
 ```
 
 **Method:** `GET`  
@@ -24,13 +24,18 @@ https://naas.isalman.dev/no
 
 ### 🔄 Example Request
 ```http
-GET /no
+GET https://noreason.me/no
 ```
 
 ### ✅ Example Response
 ```json
 {
-  "reason": "This feels like something Future Me would yell at Present Me for agreeing to."
+"reasons": [
+"I appreciate the thought, but it’s not the right fit for me right now.",
+"At this point, I don’t have the bandwidth to do this justice.",
+"Saying no to this helps me say yes to something that matters more to me.",
+"This one doesn’t feel quite right, so I’ll have to pass."
+]
 }
 ```
 
@@ -44,7 +49,7 @@ Want to run it yourself? It’s lightweight and simple.
 
 ### 1. Clone this repository
 ```bash
-git clone https://github.com/hotheadhacker/no-as-a-service.git
+git clone https://github.com/JohnnyRafael/no-as-a-service.git
 cd no-as-a-service
 ```
 
@@ -68,47 +73,13 @@ You can also change the port using an environment variable:
 PORT=5000 npm start
 ```
 
----
-
-## 📁 Project Structure
-
-```
-no-as-service/
-├── index.js            # Express API
-├── reasons.json        # 1000+ universal rejection reasons
-├── package.json
-└── README.md
-```
 
 ---
 
-## 📦 package.json
+## 🙏 Acknowledgements
 
-For reference, here’s the package config:
+The original project was created by [hotheadhacker](https://github.com/hotheadhacker/no-as-a-service), which provided the foundation for this tool.
 
-```json
-{
-  "name": "no-as-service",
-  "version": "1.0.0",
-  "description": "A lightweight API that returns random rejection or no reasons.",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "author": "hotheadhacker",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.18.2",
-    "express-rate-limit": "^7.0.0"
-  }
-}
-```
-
----
-
-## 👤 Author
-
-Created with creative stubbornness by [hotheadhacker](https://github.com/hotheadhacker)
 
 ---
 
