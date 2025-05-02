@@ -12,7 +12,7 @@ const reasons = JSON.parse(fs.readFileSync('./reasons.json', 'utf-8'));
 // Rate limiter: 10 requests per minute per IP
 const limiter = rateLimit({
   windowMs: 60 * 1000,
-  max: 10,
+  max: 120,
   message: { error: "Too many requests! Even my patience has limits." }
 });
 
