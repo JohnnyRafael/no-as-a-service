@@ -1,6 +1,6 @@
 {
   "name": "no-as-service",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A lightweight API that returns random rejection or no reasons.",
   "main": "index.js",
   "scripts": {
